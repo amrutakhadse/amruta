@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title >Internship Form</title>
+    </head>
+    <h1>Internship Form</h1>
+    <body bgcolor="lightgrey">
+        <form>
+            <img src="C:\Users\amrut\OneDrive\Desktop\pic itform.jpeg" height="100" width="80">
+            <legend>
+                <h3>User personal information:</h3> 
+            </legend>
+            <label for="name">Enter your full name: </label>
+            <input type="text" required placeholder="First Name">
+            <input type="text" required placeholder="Last Name"><br>
+            <label for="email">Enter your email: </label>
+            <input type="email" required placeholder="Email"><br>
+            <label for="password">Enter your password: </label>
+            <input type="password" required placeholder="Password"><br>
+            <label for=" confirm password">Confirm your password: </label>
+            <input type="password" required placeholder="Confirm Password"><br>
+            <label for="dob"> Enter your Date of Birth: </label>
+            <input type="date" required><br>
+            <label>Select your gender:</label>
+            <div class="gender-group">
+                 <input type="radio" value="male" required>
+                <label for="male"> Male </label>
+                <input type="radio" value="female" required>
+                <label for="female"> Female </label>
+                <input type="radio" value="others" required>
+                <label for="others"> others </label>
+            </div>
+
+
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <div class="form-group">
+        <label for="department">Preferred Department</label>
+        <select id="department" name="department" required>
+          <option value="marketing">Marketing</option>
+          <option value="engineering">Engineering</option>
+          <option value="design">Design</option>
+          <option value="finance">Finance</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume" name="resume" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Why do you want to join this internship?</label>
+        <textarea id="message" name=" message " required></textarea>
+      </div>
+
+      <button type="submit">Submit Application</button>
+    </form>
+
+
+  
+
+</body>
+</html>
+                
